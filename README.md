@@ -2,9 +2,8 @@
 
 Sample app to reproduce a bug in the Firebase Performance Monitoring library.
 
-
 - Error: `SHA-256 digest error for META-INF/maven/at.favre.lib/bcrypt/pom.xml`
-- How to reproduce: try to build this project
+- How to reproduce: use the Firebase Performance Monitoring library together with another library that is distributed as a **signed** jar (example in this repo).
 - Discussion: https://stackoverflow.com/q/52777516/6305235
 - Stacktrace:
 
